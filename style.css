@@ -76,9 +76,11 @@ button {
     border: 1px solid #3882f6;
 }
 
-.header-image {
-    width: 600px;
+.header-image img {
+    width: 300px;
     height: 300px;
+    border-radius: 200px;
+    border: 5px solid #e5e7eb;
     background-color: gray;
     text-align: center;
     display: flex;
@@ -98,14 +100,15 @@ button {
 
 .info-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    column-gap: 30px;
 }
 
 .info-items {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-self: flex-start;
     gap: 18px;
 }
 
@@ -118,9 +121,9 @@ button {
     align-self: center;
 }
 
-.info-image {
-    height: 200px;
-    width: 200px;
+.info-image img {
+    height: 250px;
+    width: 220px;
     border: 4px solid #3882f6;
     border-radius: 10px;
 }
