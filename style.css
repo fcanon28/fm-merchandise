@@ -1,0 +1,203 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0;
+    margin: 0;
+}
+/* HEADER */
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 12px 150px 100px;
+    gap: 70px;
+}
+
+.h-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.h-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: center;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.description, .header-links {
+    font-size: 18px;
+    list-style: none;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+ul {
+    padding: 0;
+    border:0;
+    display: flex;
+    gap: 20px;
+    align-self: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 1px solid #3882f6;
+}
+
+.header-image {
+    width: 600px;
+    height: 300px;
+    background-color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+/* INFO */
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 200px 100px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+}
+
+.info-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.info-title {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.info-image {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info-description {
+    font-size: 20px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+/* QUOTE */
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    align-self: auto;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+/* CONTACTS */
+
+.contacts {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    align-self: center;
+    border-radius: 10px;
+    padding: 50px 200px;
+    display: flex;
+    column-gap: 100px;
+    margin: 50px;
+}
+
+.contacts-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contacts-subheading {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #e5e7eb;
+    padding-top: 4px;
+}
+
+.contacts-signup {
+    align-self: center;
+}
+
+.contacts button {
+    border: 2px solid #F9FAF8;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* will put borders so I can visually see the divs */
+/*div {
+    border: 1px solid yellow;
+}
+
